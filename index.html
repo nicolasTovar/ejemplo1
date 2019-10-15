@@ -6,14 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        body{
-            background-color: black;
+        .contenedor{
+            margin:auto;
+            width: 1000px;
+            height: 1000px;
+            background-color:#464646;
             color: white;
+            padding: 10px;
+          
+            
+        }
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        h1{
             text-align: center;
+        }
+        .uno{
+            text-align: justify;
+            margin: 10px;
         }
     </style>
 </head>
 <body >
-    <h1>Ejemplo de menejo de GIT</h1>
+    <div class="contenedor">
+       <h1>Uso de menejo de GIT </h1>
+      <div class="uno">
+        <h2>La versión del git </h2>
+        <p>git --version </p>
+       </div>
+       <div class="uno">
+        <h2>Archivo oculto de git </h2>
+        <p>git init </p>
+       </div>
+       <div class="uno">
+        <h2> Ver el estado del git</h2>
+        <p>git status </p>
+        </div>
+        <div class="uno">
+        <h2>Adiccione los archivos individual  </h2>
+        <p>git add "nombre del archivo" </p>
+        </div>
+        <div class="uno">
+        <h2>Adiccione varios archivos </h2>
+        <p>git add * </p>
+        </div>
+        <div class="uno">
+        <h2>Ver el estado del git si hay modificaciones en los archivos </h2>
+        <p>git status </p>
+        </div>
+        <div class="uno">
+                <h2>Para renombrar el archivo en el git  </h2>
+                <p>git commit -m "nombre" </p>
+         </div>
+         <div class="uno">
+                <h2>Crear un repositorio en  git hub </h2>
+                <a href="https://github.com/nicolasTovar/ejemplo1/commits/master">Crear repositorio</a>
+         </div>
+         <div class="uno">
+                <h2>El origen del git  </h2>
+                <p>git remote add origin </p>
+         </div>
+         <div class="uno">
+                <h2>Verificar la conexión </h2>
+                <p>git remote -v </p>
+         </div>
+         <div class="uno">
+                <h2>Subir el archivo en el repositorio  </h2>
+                <p>git push -u origin master </p>
+         </div>
+        
+        
+    </div>
 </body>
 </html>
